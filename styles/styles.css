@@ -25,3 +25,61 @@
 .remove {
     text-decoration: none
 }
+
+/*milesstone 1*/
+.page {
+    font-family: sans-serif;
+    padding-left: 6em;
+    padding-right: 6em;
+    background-color: rgb(243, 181, 91);
+}
+
+.top {
+    text-align: center;
+    color: deepskyblue;
+    border: .5em solid darkblue;
+    margin-top: 2em;
+    margin-left: 11em;
+    margin-right: 11em;
+    background-color: white;
+}
+
+.first {
+    border: .5em solid darkblue;
+    background-color: white;
+    border-radius: .25em;
+    margin-top: 2em;
+}
+
+.title {
+    font-size: x-large;
+    text-align: center;
+}
+
+.purpose {
+    color: darkblue;
+}
+
+.picture {
+    border: .5em solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15em;
+    width: auto;
+}
+
+.second {
+    border: .5em solid darkblue;
+    background-color: rgb(176, 204, 225);
+    border-radius: .25em;
+    margin-top: 2em;
+}
+
+.persona {
+    color: midnightblue;
+}
+
+.sty {
+    padding: 2rem;
+}
