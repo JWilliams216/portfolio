@@ -53,6 +53,15 @@
     margin-right: 1.5em;
 }
 
+.third {
+    border: .5em solid #A184E2;
+    background-color: white;
+    border-radius: .25em;
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
 .title {
     font-size: x-large;
     text-align: center;
@@ -61,6 +70,10 @@
 
 .purpose {
     color: darkblue;
+}
+
+.reason {
+   color: #A184E2;
 }
 
 .picture1 {
