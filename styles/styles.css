@@ -81,6 +81,33 @@
     height: 15em;
     width: auto;
 }
+.picture2 {
+    border: .5em solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15em;
+    width: auto;
+}
+
+
+.picture3 {
+    border: .5em solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20em;
+    width: auto;
+}
+
+.picture4 {
+    border: .5em solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25em;
+    width: auto;
+}
 
 .second {
     border: .5em solid darkblue;
