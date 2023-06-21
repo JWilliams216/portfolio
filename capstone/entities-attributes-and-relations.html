@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>Entities, Attributes, & Relations</h1>
+<div>
+    <p>Profile</p>
+    <ul>
+        <li>profileId (pk)</li>
+        <li>profileActivationToken</li>
+        <li>profile_create_date</li>
+        <li>profileEmail</li>
+        <li>profileHandle</li>
+        <li>profileHandleIsVisible</li>
+        <li>profileHash</li>
+    </ul>
+
+    <p>Post</p>
+    <ul>
+        <li>postId</li>
+        <li>postProfileId</li>
+        <li>postContent</li>
+        <li>postDateTime</li>
+        <li>postIsPublished</li>
+        <li>postTitle</li>
+
+    </ul>
+
+    <p>Post Category</p>
+    <ul>
+        <li>postCategoryCategoryId</li>
+        <li>postCategoryPostId</li>
+    </ul>
+
+    <p>Vote</p>
+    <ul>
+        <li>votePostId</li>
+        <li>voteProfileId</li>
+        <li>voteDateTime</li>
+        <li>voteValue</li>
+    </ul>
+
+    <p>Category</p>
+    <ul>
+        <li>categoryId</li>
+        <li>categoryName</li>
+    </ul>
+</div>
+
+<h2>Relations</h2>
+<ul>
+    <li>One profile id can have many vote profile id. (one-to-many)</li>
+    <li>One profile id can have many post profile id. (one-to-many)</li>
+    <li>One post id can have many vote post id. (one-to-one)</li>
+    <li>Many category id can have many post category category id. (many-to-many)</li>
+    <li>Many post id can have many post category post id. (many-to-many)</li>
+</ul>
+</body>
+</html>
