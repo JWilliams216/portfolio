@@ -60,7 +60,17 @@
     color: darkblue;
 }
 
-.picture {
+.picture1 {
+    border: .5em solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15em;
+    width: auto;
+
+}
+
+.picture2 {
     border: .5em solid white;
     display: block;
     margin-left: auto;
@@ -84,3 +94,5 @@
     padding: 2rem;
 }
 
+.imag {
+    justify-content: flex-end}
