@@ -26,6 +26,13 @@
     text-decoration: none
 }
 
+.he {
+   color: darkblue;
+}
+
+.he2 {
+    color: #A184E2
+}
 /*milesstone 1*/
 .page {
     font-family: sans-serif;
@@ -45,18 +52,18 @@
 }
 
 .first {
-    border: .5em solid darkblue;
+    /*border: .25em solid darkblue;*/
     background-color: white;
-    border-radius: .25em;
+    /*border-radius: .25em;*/
     margin-top: 2em;
     margin-left: 1.5em;
     margin-right: 1.5em;
 }
 
 .third {
-    border: .5em solid #A184E2;
+    /*border: .25em solid #A184E2;*/
     background-color: white;
-    border-radius: .25em;
+    /*border-radius: .25em;*/
     margin-top: 2em;
     margin-left: 1.5em;
     margin-right: 1.5em;
