@@ -33,6 +33,7 @@
 .he2 {
     color: #A184E2
 }
+
 /*milesstone 1*/
 .page {
     font-family: sans-serif;
@@ -145,4 +146,10 @@
 }
 
 .imag {
-    justify-content: flex-end}
+    justify-content: flex-end
+}
+
+.car {
+    background-color: #A184E2;
+}
+
