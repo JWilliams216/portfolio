@@ -80,6 +80,10 @@
     color: darkblue;
 }
 
+.acc {
+    color: darkblue !important;
+}
+
 .reason {
    color: #A184E2;
 }
